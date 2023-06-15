@@ -1,5 +1,5 @@
 # wowshop
-#### Ecommerce WoW Shop [Link Deploy](https://wowshop-diego-tuesta.netlify.app/)
+
 ### Funciones Basicas
 * Login
 * Register
