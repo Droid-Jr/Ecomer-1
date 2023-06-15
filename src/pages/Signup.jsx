@@ -6,11 +6,7 @@ import { isLoading } from "../store/slice/loader.slice";
 import axios from "axios";
 const SignUp = () => {
     const dispatch = useDispatch()
-    // "firstName": "john",
-    // "lastName": "doe",
-    // "email": "john@gmail.com",
-    // "password": "john1234",
-    // "phone": "1234567890"
+    
     const defaultForm = {
       "firstName": "",
       "lastName": "",

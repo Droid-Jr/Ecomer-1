@@ -8,7 +8,7 @@ import Loader from "./components/Loader";
 import {useSelector} from "react-redux"
 import Purchases from "./pages/Purchases"
 import ProtectedRoutes from "./components/ProtectedRoutes";
-import SignUp from "./pages/SignUp";
+import SignUp from "./pages/Signup";
 import Profile from "./pages/Profile";
 // import Cart from "./components/Cart";
 
