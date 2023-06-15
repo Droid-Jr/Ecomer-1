@@ -1,0 +1,96 @@
+.card-product{
+    width: 250px;
+    height: 378.1px;
+    /* background-color: red; */
+    box-shadow: 0px 0px 4px 4px var(--bs-color);
+}
+
+.card__img{
+   width: 250px;
+   height: 190px;
+}
+.card__img img{
+   width: 100%;
+   height: 100%;
+ }
+.card__body{
+    display: flex;
+    flex-direction: column;
+}
+.card__title{
+    display: flex;
+    flex-direction: column;
+    height: 6rem;
+    /* background-color: aqua; */
+    padding: .3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card__title label:nth-child(1){
+    font-size: var(--tiny-font);
+    height: 20%;
+    color: var(--txt-sub-color) ;
+    text-transform: uppercase;
+    font-weight: var(--font-normal);
+    /* background-color: aquamarine; */
+}
+.card__title label:nth-child(2){
+    font-size: var(--normal-font);
+    /* background-color: red; */
+    height: 60%;
+    color: var(--txt-color) ;
+    font-weight: var(--font-bold);
+}
+.card__title label:nth-child(3){
+    font-size: var(--tiny-font);
+    height: 20%;
+    /* background-color: blue */
+    color: var(--txt-sub-color) ;
+    text-align: end;
+    text-transform: uppercase;
+    font-weight: var(--font-normal);
+}
+
+/* .product__quantity{
+    background-color: aqua;
+    width: 100%;
+} */
+
+.card__price{
+    height: 2rem;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    padding: .3rem;
+    font-size: var(--normal-font);
+    color: var(--txt-color);
+    font-weight: var(--font-bold);
+}
+.card__footer{
+    height: 3.7rem;
+    /* background-color: blue; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-shop{
+    background-color: var(--primary-color);
+    /* padding: .8rem; */
+    border-radius: 40px;
+    display: none;
+    width: 80%;
+    height: 40px;
+    font-size: var(--normal-font);
+    color: var(--txt-white-nav);
+}
+/* .card-product:hover {
+    transform: scale(.99);
+} */
+.card-product:hover  .btn-shop {
+    display: block;
+    /* cursor: pointer; */
+}
+/* .link-article:hover{
+    cursor: pointer;
+} */
+
